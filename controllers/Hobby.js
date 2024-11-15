@@ -6,7 +6,7 @@ const getHobby = async (req, res) => {
             hobby3: 'then coding',
             hobby4: 'Hiking',
             hobby5: 'Cycling',
-            hobby5: 'Solving Puzzles (crosswords, Sudoku)',
+            hobby5: 'Solving Puzzles',
             hobby5: 'Exploring Philosophy or Science Topics',
             hobby5: 'and so on 😁😁😁',
         });
