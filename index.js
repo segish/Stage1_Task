@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Credentials", true);
+    res.header("Access-Control-Allow-Credentials", true)
     next();
 });
 //routs
